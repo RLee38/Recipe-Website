@@ -1,9 +1,9 @@
 Create a website that can aid college students in their eating habits
 
 Github: https://github.com/RLee38/Recipe-Website.git
-API: 
-API App ID:
-API Key:
+API: https://developer.edamam.com/admin/applications/1409624521863
+API App ID: d33bea8c
+API Key: a174306b05353c08d554fc2d9ff0091b
 Competition: https://www.reciperadar.com/
 
 Should Include:
@@ -14,6 +14,7 @@ Should Include:
 
 Basic Flow
   -User begins entering a list of ingredients he would like in his meal(drop down menu)
+  -Utilizes the checkboxes, ranges, etc, to specify meal needs
   -On right side provide a list of all meals that use those ingredients
   -Once a meal/recipe is chosen switch screens to show just that recipe with all the above (Should Include) info.
   
