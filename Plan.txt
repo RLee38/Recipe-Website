@@ -2,6 +2,9 @@ Create a website that can aid college students in their eating habits
 
 Github: https://github.com/RLee38/Recipe-Website.git
 API: 
+API App ID:
+API Key:
+Competition: https://www.reciperadar.com/
 
 Should Include:
   -Health Levels
