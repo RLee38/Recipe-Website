@@ -1,6 +1,10 @@
 Create a website that can aid college students in their eating habits
 
+Github: https://github.com/RLee38/Recipe-Website.git
+API: 
+
 Should Include:
   -Health Levels
   -Filters for Chronic Allergies
   -Budgeting Option
+  -Macro-Nutrient Calculations
