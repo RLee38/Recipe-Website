@@ -2,6 +2,7 @@ html {
   height: 100%;
   width: 100%;
 }
+
 body {
   background-color: #a8ebf0;
 }
@@ -28,11 +29,11 @@ p1 {
 }
 
 .left {
-left: 0;
+  left: 0;
 }
 
 .right {
-right: 0;
+  right: 0;
 }
 
 .centered {
