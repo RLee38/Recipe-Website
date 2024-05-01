@@ -8,3 +8,9 @@ Should Include:
   -Filters for Chronic Allergies
   -Budgeting Option
   -Macro-Nutrient Calculations
+
+Basic Flow
+  -User begins entering a list of ingredients he would like in his meal(drop down menu)
+  -On right side provide a list of all meals that use those ingredients
+  -Once a meal/recipe is chosen switch screens to show just that recipe with all the above (Should Include) info.
+  
