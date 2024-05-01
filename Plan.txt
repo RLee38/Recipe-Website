@@ -1,0 +1,6 @@
+Create a website that can aid college students in their eating habits
+
+Should Include:
+  -Health Levels
+  -Filters for Chronic Allergies
+  -Budgeting Option
