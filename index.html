@@ -9,7 +9,7 @@
 </head>
 
 <h1>
-  <p1>ReciMe: Recipe Search</p1>
+  <p1>PantryPal: Recipe Search</p1>
 </h1>
 
   <div class="split left">
@@ -37,6 +37,15 @@
       <label for="diet3">Vegetarian</label>
       <input type="checkbox" id="diet4" name="diet4" value="Paleo">
       <label for="diet4">Paleo</label><br>
+      <br><br>
+      <label for="health">Health: 0-10</label>
+      <input type="range" min="0" max="10" id="health" name="health" oninput="rv.innerText = this.value">
+      <p id="rv">5</p>
+
+
+
+
+      
     </div>
   </div>
 
