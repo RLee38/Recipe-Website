@@ -9,10 +9,12 @@
   <script src="script.js"></script>
 </head>
 
+
 <body>
   <h1>
     <p1 class="glow">PantryPal: Recipe Search</p1>
   </h1>
+
 
   <div class="split left">
     <div class="centered">
@@ -29,28 +31,17 @@
         <option value="Beef Wellington"">
       </datalist>
 
-      <button class=" submitBtn" onclick="addFood()">
-
-
-          <div>
-            <p>Diet</p>
-            <input type="checkbox" id="diet1" name="diet1" value="gluten-free">
-            <label for="diet1">Gluten-Free</label>
-            <input type="checkbox" id="diet2" name="diet2" value="vegan">
-            <label for="diet2">Vegan</label><br>
-            <input type="checkbox" id="diet3" name="diet3" value="vegetarian">
-            <label for="diet3">Vegetarian</label>
-            <input type="checkbox" id="diet4" name="diet4" value="Paleo">
-            <label for="diet4">Paleo</label><br>
-            <br><br>
-            <label for="health">Health: 0-10</label>
-
-            <input type="range" min="0" max="10" id="health" name="health" oninput="rv.innerText = this.value">
-            <p id="rv">5</p>
-          </div>
-
-
-
+        </div>
+      
+      <p>Diet</p>
+      <input type="checkbox" id="diet1" name="diet1" value="gluten-free">
+      <label for="diet1">Gluten-Free</label>
+      <input type="checkbox" id="diet2" name="diet2" value="vegan">
+      <label for="diet2">Vegan</label><br>
+      <input type="checkbox" id="diet3" name="diet3" value="vegetarian">
+      <label for="diet3">Vegetarian</label>
+      <input type="checkbox" id="diet4" name="diet4" value="Paleo">
+      <label for="diet4">Paleo</label><br>
 
     </div>
   </div>
