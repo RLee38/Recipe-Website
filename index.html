@@ -6,59 +6,63 @@
   <meta name="viewport" content="width=device-width">
   <title>ReciMe</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
 </head>
 
-<h1>
-  <p1>PantryPal: Recipe Search</p1>
-</h1>
+<body>
+  <h1>
+    <p1 class="glow">PantryPal: Recipe Search</p1>
+  </h1>
 
   <div class="split left">
     <div class="centered">
-     <!--
+      <!--
       <img src="img_avatar2.png"
       <h2>Main Ingredients</h2>
       -->
-      <div class="topnav">
-        <input type="text" placeholder="Search..." list="recipe">
+
+      <input id="IngredientBar" class="search" type="text" placeholder="Search..." list="recipe">
 
       <datalist id="recipe">
-      <option value="Apple Crumble">
-      <option value="Jack Daniels">
+        <option value="Apple Crumble">
+        <option value="Jack Daniels">
         <option value="Beef Wellington"">
       </datalist>
-        </div>
-      
-      <p>Diet</p>
-      <input type="checkbox" id="diet1" name="diet1" value="gluten-free">
-      <label for="diet1">Gluten-Free</label>
-      <input type="checkbox" id="diet2" name="diet2" value="vegan">
-      <label for="diet2">Vegan</label><br>
-      <input type="checkbox" id="diet3" name="diet3" value="vegetarian">
-      <label for="diet3">Vegetarian</label>
-      <input type="checkbox" id="diet4" name="diet4" value="Paleo">
-      <label for="diet4">Paleo</label><br>
-      <br><br>
-      <label for="health">Health: 0-10</label>
-      <input type="range" min="0" max="10" id="health" name="health" oninput="rv.innerText = this.value">
-      <p id="rv">5</p>
+
+      <button class=" submitBtn" onclick="addFood()">
+
+
+          <div>
+            <p>Diet</p>
+            <input type="checkbox" id="diet1" name="diet1" value="gluten-free">
+            <label for="diet1">Gluten-Free</label>
+            <input type="checkbox" id="diet2" name="diet2" value="vegan">
+            <label for="diet2">Vegan</label><br>
+            <input type="checkbox" id="diet3" name="diet3" value="vegetarian">
+            <label for="diet3">Vegetarian</label>
+            <input type="checkbox" id="diet4" name="diet4" value="Paleo">
+            <label for="diet4">Paleo</label><br>
+            <br><br>
+            <label for="health">Health: 0-10</label>
+
+            <input type="range" min="0" max="10" id="health" name="health" oninput="rv.innerText = this.value">
+            <p id="rv">5</p>
+          </div>
 
 
 
 
-      
     </div>
   </div>
 
   <div class="split right">
     <div class="centered">
-      <img src="img_avatar.png" 
-      <h2>Nutritional Values</h2>
-      <p>Some text.</p>
+      <img src +="food.nutrition.png" , alt="Food Nutrition Label">
     </div>
   </div>
-  
-<body>
-  <script src="script.js"></script>
+
+
+
 </body>
- 
+
 </html>
